@@ -1041,6 +1041,35 @@ textarea{
 @media (max-width: 850px){
     /* ---------------------inicia ofertas ---------------- */
 
+    
+        
+    .products__container{
+        gap: 20px;
+    }
+
+    .product{
+        width: 130px;
+        height: 250px;
+    }
+
+    .img__container{
+        max-height: 160px;
+        position: relative;
+    }
+
+    .product__title{
+        font-size: 12px;
+    }
+
+    .price{
+        font-size: 14px;
+    }
+
+    .price__coutas{
+        font-size: 12px;
+    }
+
+
     .slider--ofertas{
         width: 600%;
     }
@@ -1183,9 +1212,6 @@ textarea{
     }
 }
 @media (max-width:650px){
-    .destacados .products__container .product{
-        width: 250px;
-    }
 
     /* ,,,productos.html,,,,,,, */
     .categorias h2{
@@ -1199,10 +1225,6 @@ textarea{
 }
 
 @media (max-width: 580px){
-
-    .product{
-        width: 300px;
-    }
 
     /* ---------------------inicia ofertas ---------------- */
 
@@ -1258,6 +1280,7 @@ textarea{
     }
 }
 
+
 @media (max-width:450px){
 
     .slider__section--cuatro h1{
@@ -1280,6 +1303,10 @@ textarea{
 /* ,,,,,productos.html,,,,,,,, */
     .products__container--principal{
         flex-direction: column;
+    }
+    .products__container--principal .products__container{
+        width: 100%;
+        gap:5px;
     }
 
     .categorias{
