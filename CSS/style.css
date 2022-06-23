@@ -1214,6 +1214,10 @@ textarea{
 @media (max-width:650px){
 
     /* ,,,productos.html,,,,,,, */
+    .destacados .title{
+        font-size: 1.5rem;
+    }
+
     .categorias h2{
         font-size: .7rem;
     }
