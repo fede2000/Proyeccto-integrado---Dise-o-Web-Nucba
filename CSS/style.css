@@ -909,6 +909,32 @@ textarea{
 
 /* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,finaliza productos.html,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
 
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inicia como_comprar.html,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.como__comprar{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    margin: 0 auto;
+    font-family: "Poppins",sans-serif;
+    padding: 4rem 0;
+}
+
+.como__comprar h2{
+    padding-bottom: 2rem;
+}
+
+.como__comprar p, .como__comprar ul{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,finaliza como_comprar.html,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
 /* ________________________________________INICIA MEDIAQUERIES____________________ */
 
 @media (max-width: 1124px){
