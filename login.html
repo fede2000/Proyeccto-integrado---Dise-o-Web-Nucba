@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link del CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- link fontawesome -->
+    <script src="https://kit.fontawesome.com/1fc8959a7c.js" crossorigin="anonymous"></script>
+    <!-- favivon -->
+    <link rel="shortcut icon" href="Images/favicon-32x32.png" type="image/x-icon">
+    <!-- titulo de pagina -->
+    <title>Iniciar Sesión - Las Delicias de Victoria</title>
+</head>
+<!-- inicia body -->
+<body>
+    <!-- inicia header -->
+    <header>
+        <!-- inicia nav top -->
+        <div class="nav__top container">
+            <div class="nav__top__container">            
+                <ul class="nav__contact">
+                    <li class="line">1122334455</li>
+                    <li>lasdeliciasdevictoria@mail.com</li>
+                </ul>
+                <ul class="nav__user">
+                    <li class="line"><a href="crear_cuenta.html">Crear cuenta</a></li>
+                    <li><a href="login.html">Iniciar sesion</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- finaliza nav top -->
+    </header>
+    <!-- finaliza header -->
+    <!-- inicia main - contenido principal -->
+    <main>
+        <!-- inicia nav princiipal  -->
+        <nav class="nav__main">
+            <div class="nav__main__container container">
+                <!-- inicia logo -->
+                <a href="index.html"><img src="Images/logo-lasdeliciasdevictoria.png" class="logo"></a>
+                <!-- finaliza logo -->
+                <!-- inicia menu -->
+                <ul class="menu__items">
+                    <div class="usuario">
+                        <span class="btn__active"><i class="fa-solid fa-xmark"></i></span>
+                        <ul class="user__container">
+                            <li><i class="fa-solid fa-circle-user"></i></li>
+                            <li class="line"><a href="crear_cuenta.html">Crear cuenta</a></li>
+                            <li><a href="login.html">Iniciar sesión</a></li>
+                        </ul>
+                    </div>
+                    <li class="active"><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="#">Como comprar</a></li>
+                </ul>
+                <span class="btn__menu">
+                    <i class="fa fa-bars"></i>
+                </span>
+                <!-- finaliza menu -->
+            </div>
+        </nav>
+        <!-- finaliza nav principal -->
+        <!-- inicia seccion de inicio de sesion -->
+        <section class="login container">
+            <h2>INICIAR SESION</h2>
+            <form class="info__login">
+                <!-- email -->
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" required>
+                <!-- contraseña -->
+                <label for="password">CONTRASEÑA</label>
+                <input type="password" id="password" required>
+                <p><a href="#">¿OLVIDASTE TU CONTRASEÑA?</a></p>
+                <!-- buton de inicio de sesion -->
+                <button class="btn__product">INICIAR SESION</button>
+                <p>¿NO TENÉS CUENTA?<a href="crear_cuenta.html">CREAR CUENTA</a></p>
+            </form>
+
+        </section>
+        <!-- finaliza seccion de inicio de sesion -->
+        <!-- inicia seccion de redes -->
+        <section class="seguinos container">
+            <h2 class="subtitle">SEGUINOS</h2>
+            <div class="seguinos__container">
+                <!-- instagram -->
+                <span><i class="fa-brands fa-instagram"></i></span>
+                <!-- facebook -->
+                <span><i class="fa-brands fa-facebook"></i></span>
+                <!-- tiktok -->
+                <span><i class="fa-brands fa-tiktok"></i></span>
+            </div>
+        </section>
+        <!-- finaliza seccion de redes -->
+        <!-- inicia seccion de informacion de compra -->
+        <section class="info__compra container">
+            <div class="info__container">
+                <div class="info__container--principal">
+                    <i class="fa-solid fa-truck"></i>
+                    <h3>ENVIAMOS TU COMPRA</h3>
+                </div>
+                <p>Entregas en todo el pais</p>
+            </div>
+            <div class="info__container">
+                <div class="info__container--principal">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <h3>PAGA COMO QUIERAS</h3>
+                </div>
+                <p>Tarjetas de credito/debito o efectivo</p>
+            </div>
+            <div class="info__container">
+                <div class="info__container--principal">
+                    <i class="fa-solid fa-lock"></i>
+                    <h3>COMPRA CON SEGURIDAD</h3>
+                </div>
+                <p>Tus datos siempre protegidos</p>
+            </div>
+        </section>
+        <!-- finaliza seccion de compra -->
+        
+    </main>
+    <!-- finaliza main -->
+    <!-- inicia footer -->
+    <footer>
+        <section class="footer container">
+            <!-- inicia nav footer -->
+            <div class="nav__footer">
+                <h2>NAVEGACION</h2>
+                <ul class="menu__items--footer">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="#">Como comprar</a></li>
+                </ul>
+            </div>
+            <!-- finaliza nav footer -->
+            <!-- inicia medios de pago -->
+            <div class="medios__pago">
+                <h2>METODOS DE PAGO</h2>
+                <div class="pago__container">
+                    <!-- visa -->
+                    <img src="Images/visa@2x.png" alt="">
+                    <!-- mastercard -->
+                    <img src="Images/mastercard@2x.png" alt="">
+                    <!-- mercadopago -->
+                    <img src="Images/mercadopago@2x.png" alt="">
+                    <!-- rapipago -->
+                    <img src="Images/rapipago@2x.png" alt="">
+                    <!-- pagofacil -->
+                    <img src="Images/pagofacil@2x.png" alt="">
+                    <!-- tarjeta naranja -->
+                    <img src="Images/tarjeta-naranja@2x.png" alt="">
+                </div>
+            </div>
+            <!-- finaliza medios de pago -->
+            <!-- inicia inofrmacion de contacto -->
+            <div class="contactanos__footer">
+                <h2>CONTACTO</h2>
+                <div class="contacto__item">
+                    <!-- telefono -->
+                    <div><i class="fa-solid fa-phone"></i> 1122334455</div>
+                    <!-- email -->
+                    <div><i class="fa-solid fa-envelope"></i> lasdeliciasdevictoria@mail.com</div>
+                    <!-- ubicacion -->
+                    <div><i class="fa-solid fa-location-dot"></i> Avenida del libertador 000 - Moreno</div>
+                </div>
+            </div>
+            <!-- finaliza informacion de contacto -->
+        </section>
+    </footer>
+    <!-- finaliza footer -->
+    <!-- inicia scripts -->
+    <script src="JS/app.js"></script>
+    <script src="JS/slider.js"></script>
+    <script src="JS/questions.js"></script>
+    <!-- finaliza scripts -->
+</body>
+<!-- finaliza body -->
+</html>

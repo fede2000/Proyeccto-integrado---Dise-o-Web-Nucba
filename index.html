@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link fontawesome -->
+    <script src="https://kit.fontawesome.com/1fc8959a7c.js" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="Images/favicon-32x32.png" type="image/x-icon">
+    <!-- link del CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- titulo de pagina -->
+    <title>Las Delicias de Victoria</title>
+</head>
+<!-- inicia body -->
+<body>
+    <!-- inicia header -->
+    <header>
+        <!-- inicia nav top -->
+        <div class="nav__top container">
+            <div class="nav__top__container">            
+                <ul class="nav__contact">
+                    <!-- telefono -->
+                    <li class="line">1122334455</li>
+                    <!-- mail -->
+                    <li>lasdeliciasdevictoria@mail.com</li>
+                </ul>
+                <ul class="nav__user">
+                    <!-- link a crear cuenta -->
+                    <li class="line"><a href="crear_cuenta.html">Crear cuenta</a></li>
+                    <!-- link a iniciar sesion -->
+                    <li><a href="login.html">Iniciar sesion</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- finaliza nav top -->
+    </header>
+    <!-- finaliza header -->
+    <!-- inicia main - contenido principal -->
+    <main>
+        <!-- inicia nav principal -->
+        <nav class="nav__main">
+            <div class="nav__main__container container">
+                <!-- inicia logo -->
+                <a href="index.html"><img src="Images/logo-lasdeliciasdevictoria.png" class="logo"></a>
+                <!-- finaliza logo -->
+                <!-- inicia menu -->
+                <ul class="menu__items">
+                    <div class="usuario">
+                        <span class="btn__active"><i class="fa-solid fa-xmark"></i></span>
+                        <ul class="user__container">
+                            <li><i class="fa-solid fa-circle-user"></i></li>
+                            <!-- link a crear cuenta -->
+                            <li class="line"><a href="crear_cuenta.html">Crear cuenta</a></li>
+                            <!-- link a iniciar sesion -->
+                            <li><a href="login.html">Iniciar sesión</a></li>
+                        </ul>
+                    </div>
+                    <li class="active"><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="#">Como comprar</a></li>
+                </ul>
+                <span class="btn__menu">
+                    <i class="fa fa-bars"></i>
+                </span>
+                <!-- finaliza menu -->
+            </div>
+        </nav>
+        <!-- finaliza nav principal -->
+        <!-- inicia slider principal -->
+        <section class="container-slider container">
+            <div class="slider" id="slider">
+                <!-- slider 1 -->
+                <div class="slider__section slider__section--uno">
+                </div>
+                <!-- slider 2 -->
+                <div class="slider__section slider__section--dos">
+                </div>
+                <!-- slider 3 -->
+                <div class="slider__section slider__section--tres">
+                </div>
+                <!-- slider 4 -->
+                <div class="slider__section slider__section--cuatro">
+                    <h1><span>3</span> COUTAS</h1>
+                    <p>SIN INTERÉS</p>
+                </div>
+            </div>
+            <!-- boton izquierda -->
+            <div class="slider__btn slider__btn--left" id="btn--left"></div>
+            <!-- boton derecha -->
+            <div class="slider__btn slider__btn--right" id="btn--right"></div>
+        </section>
+        <!-- finaliza slider principal -->
+        <!-- inicia productos destacados -->
+        <section class="destacados">
+            <h2 class="title">DESTACADOS</h2>
+            <!-- inicia contenedor de productos destacados -->
+            <div class="products__container">
+                <!-- producto 1 -->
+                <div class="product">
+                    <!-- imagen producto -->
+                    <div class="img__container">
+                        <img src="Images/img-1.jpg" alt="Brownie" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description">
+                        <h2 class="product__title">Brownie clasico</h2>
+                        <span class="price">$1.500</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$500</span></p>
+                    </div>
+
+                </div>
+                <!-- producto 2 -->
+                <div class="product">
+                    <!-- imagen producto -->
+                    <div class="img__container">
+                        <img src="Images/img-2.jpeg" alt="Lemon pie" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description">
+                        <h2 class="product__title">Lemon Pie</h2>
+                        <span class="price">$2.600</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$870</span></p>
+                    
+                    </div>
+                </div>
+                <!-- producto 3 -->
+                <div class="product">
+                    <!-- imagen producto -->
+                    <div class="img__container">
+                        <img src="Images/img-3.jpg" alt="Cheesecake oreo" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description">
+                        <h2 class="product__title">Cheseecake oreo</h2>
+                        <span class="price">$3.500</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$1.166</span></p>
+                    
+                    </div>
+                </div>
+                <!-- producto 4 -->
+                <div class="product">
+                    <!-- imagen producto -->
+                    <div class="img__container">
+                        <img src="Images/img-4.jpg" alt="Tarta de frutillas" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description">
+                        <h2 class="product__title">Tarta de frutillas</h2>
+                        <span class="price">$2.500</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$833</span></p>
+                    
+                    </div>
+                </div>
+                <!-- producto 5 -->
+                <div class="product">
+                    <!-- imagen producto -->
+                    <div class="img__container">
+                        <img src="Images/img-5.jpg" alt="Cupcake" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description">
+                        <h2 class="product__title">cupcake (docena)</h2>
+                        <span class="price">$1200</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$400</span></p>
+                    
+                    </div>
+                </div>
+                <!-- producto 6 -->
+                <div class="product">
+                    <!-- imagen producto -->
+                    <div class="img__container">
+                        <img src="Images/img-6.jpg" alt="torta crema-chocolate-frutilla" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description">
+                        <h2 class="product__title"> Torta crema-chocolate-frutilla</h2>
+                        <span class="price">$2.800</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$933</span></p>
+                    
+                    </div>
+                </div>
+                <!-- producto 7 -->
+                <div class="product">
+                    <!-- imagen producto -->
+                    <div class="img__container">
+                        <img src="Images/img-7.jpg" alt="Torta red velvet" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description">
+                        <h2 class="product__title">torta red velvet</h2>
+                        <span class="price">$3.400</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$1.133</span></p>
+                    
+                    </div>
+                </div>
+                <!-- producto 8 -->
+                <div class="product">
+                    <!-- imagen producto -->
+                    <div class="img__container">
+                        <img src="Images/img-8.jpg" alt="Drip cake" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description">
+                        <h2 class="product__title">Drip cake</h2>
+                        <span class="price">$3.200</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$1.066</span></p>    
+                    </div>
+                </div>
+                <!-- producto 9 -->
+                <div class="product">
+                    <!-- imagen producto -->
+                    <div class="img__container">
+                        <img src="Images/img-9.jpg" alt="Budin ingles" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description">
+                        <h2 class="product__title">budin ingles</h2>
+                        <span class="price">$1.500</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$500</span></p>
+                    
+                    </div>
+                </div>
+                <!-- producto 10 -->
+                <div class="product">
+                    <!-- imagen producto -->
+                    <div class="img__container">
+                        <img src="Images/img-10.jpg" alt="torta matilda" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description">
+                        <h2 class="product__title">torta matilda</h2>
+                        <span class="price">$3.900</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$1.300</span></p>
+                    
+                    </div>
+                </div>
+                <!-- producto 11 -->
+                <div class="product">
+                    <!-- imagen producto -->
+                    <div class="img__container">
+                        <img src="Images/img-11.jpg" alt="torta mousse de chocolate" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description">
+                        <h2 class="product__title">torta mousse de chocolate</h2>
+                        <span class="price">$3.200</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$1.066</span></p>
+                    
+                    </div>
+                </div>
+                <!-- producto 12 -->
+                <div class="product">
+                    <!-- imagen producto -->
+                    <div class="img__container">
+                        <img src="Images/img-16.jpg" alt="torta casamiento" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description">
+                        <h2 class="product__title">torta casamiento</h2>
+                        <span class="price">$9.800</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$3.266</span></p>    
+                    </div>
+                </div>
+
+            </div>
+            <!-- finaliza contenedor de productos destacados -->
+            <span class="btn__product">ver todos los productos</span>
+        </section>
+        <!-- finaliza productos destacados -->
+        <!-- inicia slider automatico de ofertas -->
+        <section class="container-slider--ofertas container">
+            <!-- titulo seccion -->
+            <h2 class="title">OFERTAS</h2>
+            <!-- inicia contenedor de ofertas -->
+            <div class="slider--ofertas" id="slider--ofertas">
+                <!-- producto oferta 1 -->
+                <div class="product--ofertas">
+                    <!-- imagen producto -->
+                    <div class="img__container--ofertas">
+                        <img src="Images/oferta-1.jpeg" alt="box-desayuno" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description--ofertas">
+                        <h2 class="product__title">box desayuno 1</h2>
+                        <span class="price">$3.500</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$1.166</span></p>
+                    </div>
+
+                </div>
+                <!-- producto oferta 2 -->
+                <div class="product--ofertas">
+                    <!-- imagen producto -->
+                    <div class="img__container--ofertas">
+                        <img src="Images/oferta-2.png" alt="box-desayuno2" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description--ofertas">
+                        <h2 class="product__title">box desayuno 2</h2>
+                        <span class="price">$2.600</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$870</span></p>
+                    
+                    </div>
+                </div>
+                <!-- producto oferta 3 -->
+                <div class="product--ofertas">
+                    <!-- imagen producto -->
+                    <div class="img__container--ofertas">
+                        <img src="Images/oferta-3.jpeg" alt="box-desayuno-3" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description--ofertas">
+                        <h2 class="product__title">box desayuno 3</h2>
+                        <span class="price">$3.500</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$1.166</span></p>
+                    
+                    </div>
+                </div>
+                <!-- producto ofeta 4 -->
+                <div class="product--ofertas">
+                    <!-- imagen producto -->
+                    <div class="img__container--ofertas">
+                        <img src="Images/oferta-4.png" alt="box-desayuno-4" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description--ofertas">
+                        <h2 class="product__title">box desayuno 4</h2>
+                        <span class="price">$2.500</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$833</span></p>
+                    
+                    </div>
+                </div>
+                <!-- producto oferta 5 -->
+                <div class="product--ofertas">
+                    <!-- imagen producto -->
+                    <div class="img__container--ofertas">
+                        <img src="Images/oferta-5.jpg" alt="box-desayuno-5" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description--ofertas">
+                        <h2 class="product__title">box desayuno 5</h2>
+                        <span class="price">$3000</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$1000</span></p>
+                    
+                    </div>
+                </div>
+                <!-- producto oferta 6 -->
+                <div class="product--ofertas">
+                    <!-- imagen producto -->
+                    <div class="img__container--ofertas">
+                        <img src="Images/oferta-6.jpeg" alt="box-desayuno-6" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description--ofertas">
+                        <h2 class="product__title">box desayuno 6</h2>
+                        <span class="price">$2.800</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$933</span></p>
+                    
+                    </div>
+                </div>
+                <!-- producto oferta 7 -->
+                <div class="product--ofertas">
+                    <!-- imagen producto -->
+                    <div class="img__container--ofertas">
+                        <img src="Images/oferta-1.jpeg" alt="box-desayuno" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description--ofertas">
+                        <h2 class="product__title">box desayuno 1</h2>
+                        <span class="price">$3.500</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$1.166</span></p>
+                    </div>
+
+                </div>
+                <!-- producto oferta 8 -->
+                <div class="product--ofertas">
+                    <!-- imagen producto -->
+                    <div class="img__container--ofertas">
+                        <img src="Images/oferta-2.png" alt="box-desayuno2" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description--ofertas">
+                        <h2 class="product__title">box desayuno 2</h2>
+                        <span class="price">$2.600</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$870</span></p>
+                    
+                    </div>
+                </div>
+                <!-- producto oferta 9 -->
+                <div class="product--ofertas">
+                    <!-- imagen producto -->
+                    <div class="img__container--ofertas">
+                        <img src="Images/oferta-3.jpeg" alt="box-desayuno-3" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description--ofertas">
+                        <h2 class="product__title">box desayuno 3</h2>
+                        <span class="price">$3.500</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$1.166</span></p>
+                    
+                    </div>
+                </div>
+                <!-- producto oferta 10 -->
+                <div class="product--ofertas">
+                    <!-- imagen producto -->
+                    <div class="img__container--ofertas">
+                        <img src="Images/oferta-4.png" alt="box-desayuno-4" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description--ofertas ">
+                        <h2 class="product__title">box desayuno 4</h2>
+                        <span class="price">$2.500</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$833</span></p>
+                    
+                    </div>
+                </div>
+                <!-- producto oferta 11 -->
+                <div class="product--ofertas">
+                    <!-- imagen producto -->
+                    <div class="img__container--ofertas">
+                        <img src="Images/oferta-5.jpg" alt="box-desayuno-5" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description--ofertas ">
+                        <h2 class="product__title">box desayuno 5</h2>
+                        <span class="price">$3000</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$1000</span></p>
+                    
+                    </div>
+                </div>
+                <!-- producto oferta 12 -->
+                <div class="product--ofertas">
+                    <!-- imagen producto -->
+                    <div class="img__container--ofertas">
+                        <img src="Images/oferta-6.jpeg" alt="box-desayuno-6" class="product__img">
+                        <div class="capa__hover"></div>
+                    </div>
+                    <!-- descripcion producto -->
+                    <div class="description--ofertas ">
+                        <h2 class="product__title">box desayuno 6</h2>
+                        <span class="price">$2.800</span>
+                        <p class="price__coutas"><span class="negrita">3</span> coutas sin interés de <span class="negrita">$933</span></p>
+                    
+                    </div>
+                </div>
+            </div>
+            <!-- finaliza contenedor de ofertas -->
+        </section>
+        <!-- finaliza slider automatico de ofertas -->
+        <!-- inicia newsletter suscripcion para recibir novedades -->
+        <section class="newsletter">
+            <!-- titulo seccion -->
+            <h2 class="title">NUESTRO NEWSLETTER</h2>
+            <div class="newsletter__container">
+                <p>Suscribete para recibir nuestras ultimas novedades</p>
+                <!-- nombre -->
+                <input type="text" placeholder="Ingresa tu nombre">
+                <!-- email -->
+                <input type="email" placeholder="Ingresa tu email">
+                <!-- boton de inscribirse -->
+                <button class="btn__product">INSCRIBIRSE</button>
+            </div>
+        </section>
+        <!-- finaliza newsletter suscripcion para recibir novedades -->
+        <!-- inicia preguntas frecuentes -->
+        <section class="questions container">
+            <!-- titulo seccion -->
+            <h2 class="title">PREGUNTAS FRECUENTES</h2>
+            <!-- contenedor de preguntas -->
+            <section class="questions__container">
+                <!-- pregunta 1 -->
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Tamaños y porciones
+                            <span class="questions__arrow">
+                                <img src="./Images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+                        <ul class="questions__show">
+                            <li>TAMAÑO CHICO: RINDE ENTRE 6 A 8 PORCIONES ABUNDANTES</li>
+                            <li>TAMAÑO MEDIANO: RINDE ENTRE 12 A 14 PORCIONES ABUNDANTES</li>
+                            <li>TAMAÑO GRANDE: RINDE ENTRE 16 A 18 PORCIONES ABUNDANTES</li>
+                        </ul>
+                    </div>
+                </article>
+                <!-- pregunta 2 -->
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Como realizar pedidos?
+                            <span class="questions__arrow">
+                                <img src="./Images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+                        <p class="questions__show">Comunicate con nosotros a traves de nuestras redes o numero de telefono,por donde  te brindaremos la informacion necesaria sobre costos , fecha de anticipacion , fecha de entrega y demas.</p>
+                    </div>
+                </article>
+                <!-- pregunta 3 -->
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Metodos de pago
+                            <span class="questions__arrow">
+                                <img src="./Images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+                        <ul class="questions__show">
+                            <li>Efectivo</li>
+                            <li>Tarjeta de credito</li>
+                            <li>Tarjeta de debito</li>
+                            <li>Transferencia bancaria</li>
+                            <li>Recorda que al momento de realizar el pedido deberas abonar el 50% del total como anticipo</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+        </section>
+        <!-- finaliza preguntas frecuentes -->
+        <!-- inicia redes -->
+        <section class="seguinos container">
+            <!-- titulo seccion -->
+            <h2 class="subtitle">SEGUINOS</h2>
+            <div class="seguinos__container">
+                <!-- instagram -->
+                <span><i class="fa-brands fa-instagram"></i></span>
+                <!-- facebook -->
+                <span><i class="fa-brands fa-facebook"></i></span>
+                <!-- tiktok -->
+                <span><i class="fa-brands fa-tiktok"></i></span>
+            </div>
+        </section>
+        <!-- finaliza redes -->
+        <!-- inicia informacion de compra -->
+        <section class="info__compra container">
+            <div class="info__container">
+                <div class="info__container--principal">
+                    <i class="fa-solid fa-truck"></i>
+                    <h3>ENVIAMOS TU COMPRA</h3>
+                </div>
+                <p>Entregas en todo el pais</p>
+            </div>
+            <div class="info__container">
+                <div class="info__container--principal">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <h3>PAGA COMO QUIERAS</h3>
+                </div>
+                <p>Tarjetas de credito/debito o efectivo</p>
+            </div>
+            <div class="info__container">
+                <div class="info__container--principal">
+                    <i class="fa-solid fa-lock"></i>
+                    <h3>COMPRA CON SEGURIDAD</h3>
+                </div>
+                <p>Tus datos siempre protegidos</p>
+            </div>
+        </section>
+        <!-- finaliza informacion de compra -->
+        
+    </main>
+    <!-- finaliza main - contenido principal -->
+    <!-- inicia footer - pie de pagina -->
+    <footer>
+        <section class="footer container">
+            <!-- inicia nav footer -->
+            <div class="nav__footer">
+                <h2>NAVEGACION</h2>
+                <ul class="menu__items--footer">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="#">Como comprar</a></li>
+                </ul>
+            </div>
+            <!-- finaliza nav footer -->
+            <!-- inicia medios de pago -->
+            <div class="medios__pago">
+                <!-- titulo seccion -->
+                <h2>METODOS DE PAGO</h2>
+                <div class="pago__container">
+                    <!-- visa -->
+                    <img src="Images/visa@2x.png" alt="">
+                    <!-- mastercard -->
+                    <img src="Images/mastercard@2x.png" alt="">
+                    <!-- mercadopago -->
+                    <img src="Images/mercadopago@2x.png" alt="">
+                    <!-- rapipago -->
+                    <img src="Images/rapipago@2x.png" alt="">
+                    <!-- pagofacil -->
+                    <img src="Images/pagofacil@2x.png" alt="">
+                    <!-- tarjeta naranja -->
+                    <img src="Images/tarjeta-naranja@2x.png" alt="">
+                </div>
+            </div>
+            <!-- finaliza medios de pago -->
+            <!-- inicia informacion de contacto -->
+            <div class="contactanos__footer">
+                <h2>CONTACTO</h2>
+                <div class="contacto__item">
+                    <!-- telefono -->
+                    <div><i class="fa-solid fa-phone"></i> 1122334455</div>
+                    <!-- mail -->
+                    <div><i class="fa-solid fa-envelope"></i> lasdeliciasdevictoria@mail.com</div>
+                    <!-- ubicacion -->
+                    <div><i class="fa-solid fa-location-dot"></i> Avenida del libertador 000 - Moreno</div>
+                </div>
+
+            </div>
+            <!-- finaliza informacion de contacto -->
+        </section>
+    </footer>
+    <!-- finaliza footer - pie de pagina -->
+    <!-- inicia scripts -->
+    <script src="JS/app.js"></script>
+    <script src="JS/slider.js"></script>
+    <script src="JS/questions.js"></script>
+    <!-- finaliza scripts -->
+</body>
+<!-- finaliza body -->
+</html>
